@@ -1,7 +1,7 @@
 {
   "name": "webrtcvad",
   "author": "Serenade Labs, Inc. <contact@serenade.ai>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bindings for the WebRTC VAD.",
   "license": "MIT",
   "main": "./dist/index.js",
@@ -18,7 +18,7 @@
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist",
-    "prepublish": "tsc",
+    "prepare": "tsc",
     "install": "node-gyp rebuild"
   },
   "devDependencies": {

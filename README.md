@@ -1,6 +1,6 @@
 # webrtcvad
 
-webrtcvad is a cross-platform, native [node.js](https://nodejs.org) [addon](http://nodejs.org/api/addons.html) for detecting speech in raw audio by providing node.js bindings to the [WebRTC](https://webrtc.org) voice activity detection library.
+webrtcvad is a cross-platform, native [node.js](https://nodejs.org) [addon](http://nodejs.org/api/addons.html) for detecting speech in raw audio. webrtcvad provides node.js bindings for the native [WebRTC](https://webrtc.org) voice activity detection library.
 
 ## Installation
 

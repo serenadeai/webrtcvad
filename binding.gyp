@@ -48,7 +48,7 @@
         ],
         [
           'OS=="linux"', {
-            "defines": ["WEBRTC_WIN"]
+            "defines": ["WEBRTC_POSIX"]
           }
         ],
       ]
