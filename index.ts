@@ -1,5 +1,4 @@
-import bindings from "bindings";
-const vadBindings = bindings("vad.node");
+const vadBindings = require("bindings")("vad.node");
 
 export default class VAD {
   private sampleRate: number;
